@@ -1,6 +1,7 @@
-# Uniswap V2 Subgraph
+# 8Bit-Swap V2 Subgraph
+Forked from [uniswap-v2-subgraphs](https://github.com/Uniswap/v2-subgraph)
 
-[Uniswap](https://uniswap.org/) is a decentralized protocol for automated token exchange on Ethereum.
+[8Bit-Swap](https://8bit-swap.io/) is a decentralized protocol for automated token exchange on June Chain.
 
 This subgraph dynamically tracks any pair created by the uniswap factory. It tracks of the current state of Uniswap contracts, and contains derived stats for things like historical data and USD prices.
 
