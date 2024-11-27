@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: june
     source:
-      address: 'TODO'
+      address: '0xD1E879Df1B58c02fc39c76a2A5bF5196b3122189'
       abi: Factory
-      startBlock: TODO
+      startBlock: 6375754
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: mainnet
+    network: june
     source:
       abi: Pair
     mapping:
